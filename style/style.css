@@ -1,6 +1,92 @@
+/* mulish-google-font */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap");
+
 /* custom - css  */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
+.orange-color {
+  background-color: #ff5400;
+}
+
+/* header-start  */
+header {
+  max-width: 1250px;
+  margin: 0 auto;
+  max-height: 64px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.header-logo p {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list li {
+  list-style: none;
+  margin-left: 40px;
+}
+.menu-list li a {
+  font-size: 18px;
+  color: var(--Dark-02, #424247);
+  font-weight: 700;
+  text-decoration: none;
+}
+.menu-list li:hover a {
+  color: #ff5400;
+  transition: 0.3s ease;
+}
+
+/* banner-start */
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  max-height: 500px;
+}
+.banner-container {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-container h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-container p {
+  color: #fff;
+}
+.banner-input {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: #fff;
+}
+.banner-input .where,
+.when,
+.select,
+.find-now {
+  display: flex;
+  justify-content: space-between;
+}
+/* header-end  */

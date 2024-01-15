@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+  /* menu  */
+  .menu {
+    flex-direction: column;
+  }
+  .menu-list {
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ff5400;
+    width: 100%;
+    text-align: center;
+  }
+  .menu-list li:hover a {
+    color: #fff;
+  }
+}

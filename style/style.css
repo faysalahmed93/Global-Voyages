@@ -12,18 +12,31 @@
 .orange-color {
   background-color: #ff5400;
 }
-
+.orange-button {
+  padding: 10px 20px;
+  background-color: #ff5400;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.orange-button a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
 /* header-start  */
 header {
   max-width: 1250px;
   margin: 0 auto;
-  max-height: 64px;
 }
 .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
+  min-height: 64px;
 }
 .header-logo {
   display: flex;
@@ -82,7 +95,6 @@ header {
 }
 .banner-input {
   display: flex;
-
   justify-content: space-between;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
@@ -118,3 +130,39 @@ select {
   padding-right: 5px;
 }
 /* header-end  */
+/* our-popular */
+.our-popular {
+  max-width: 1250px;
+  margin: 60px auto;
+}
+.our-popular-container {
+  display: flex;
+  justify-content: space-between;
+}
+.our-popular-text {
+  width: 45%;
+}
+.our-popular-text h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.our-popular-text ul {
+  margin-left: 40px;
+}
+.our-popular-text ul li {
+  color: rgba(19, 19, 24, 0.7);
+  margin-bottom: 20px;
+}
+.our-popular-text p {
+  color: rgba(19, 19, 24, 0.7);
+  margin: 30px 0;
+}
+
+.our-popular-image {
+  width: calc(45 - 40px);
+}
+.our-popular-image img {
+  width: 100%;
+}

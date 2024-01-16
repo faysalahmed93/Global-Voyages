@@ -34,4 +34,17 @@
     left: -15%;
     top: 50%;
   }
+  /* our-popular-tour-section start */
+  .our-popular-container {
+    flex-direction: column;
+  }
+  .our-popular-text {
+    width: 100%;
+  }
+  .our-popular-text .orange-button {
+    margin-bottom: 20px;
+  }
+  .our-popular-image {
+    width: 100%;
+  }
 }

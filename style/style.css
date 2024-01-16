@@ -61,13 +61,15 @@ header {
     url("../images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 16px;
-  max-height: 500px;
+  height: 500px;
 }
 .banner-container {
   max-width: 750px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 60px;
 }
 .banner-container h2 {
   color: #fff;
@@ -76,17 +78,43 @@ header {
 }
 .banner-container p {
   color: #fff;
+  padding: 30px 0;
 }
 .banner-input {
   display: flex;
+
   justify-content: space-between;
-  box-shadow: #fff;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px;
 }
-.banner-input .where,
-.when,
-.select,
+.banner-input input,
+select {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 150px;
+  gap: 20px;
+
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+}
+.banner-input,
 .find-now {
   display: flex;
   justify-content: space-between;
+}
+.find-now input {
+  color: #fff;
+  font-weight: 800px;
+  text-align: center;
+}
+.find-now i {
+  position: relative;
+  top: 32%;
+  left: 18%;
+  color: #fff;
+  padding-right: 5px;
 }
 /* header-end  */

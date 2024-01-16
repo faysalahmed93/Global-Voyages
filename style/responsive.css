@@ -14,4 +14,24 @@
   .menu-list li:hover a {
     color: #fff;
   }
+  /* banner */
+  .banner {
+    min-height: 600px;
+  }
+  .banner-input {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .banner-input input,
+  select {
+    width: 100%;
+  }
+  .find-now {
+    justify-content: center;
+    align-items: center;
+  }
+  .find-now i {
+    left: -15%;
+    top: 50%;
+  }
 }

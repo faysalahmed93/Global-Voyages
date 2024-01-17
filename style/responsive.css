@@ -37,6 +37,7 @@
   /* our-popular-tour-section start */
   .our-popular-container {
     flex-direction: column;
+    padding: 5px;
   }
   .our-popular-text {
     width: 100%;
@@ -56,4 +57,32 @@
   .choose-image3 {
     grid-template-columns: 1fr;
   }
+  /* .why choose us */
+  .why-choose-us-content {
+    grid-template-columns: 1fr;
+  }
+  /* perfect-content */
+  .perfect-content {
+    flex-direction: column;
+  }
+  .perfect-video h1 {
+    top: 15%;
+  }
+  /* .newsletter */
+  .newsletter-container {
+    grid-template-columns: 1fr;
+  }
+  .newsletter-input {
+    margin: 0 auto;
+  }
+  .image-text {
+    right: 1%;
+    bottom: 14%;
+  }
+  /* footer-start  */
+  .wraper {
+    width: 500px;
+  }
+
+  /* footer-end  */
 }

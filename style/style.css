@@ -131,6 +131,7 @@ select {
   display: flex;
   align-items: center;
   background: #ff5400;
+  border-radius: 5px;
 }
 .find-now input {
   color: #fff;

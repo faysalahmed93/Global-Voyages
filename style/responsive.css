@@ -47,4 +47,13 @@
   .our-popular-image {
     width: 100%;
   }
+  .choose-image1 {
+    grid-template-columns: 1fr;
+  }
+  .choose-image2 {
+    grid-template-columns: 1fr;
+  }
+  .choose-image3 {
+    grid-template-columns: 1fr;
+  }
 }
